@@ -3,6 +3,7 @@
 body {
 	font-family: "Poppins";
 	margin-left: 5%;
+	font-size: 16px;
 }
 
 header > div {
@@ -56,6 +57,7 @@ nav a {
 }
 .links li {
 	list-style: none;
+	white-space: nowrap;
 }
 .blackheart {
 	width: 100px;
@@ -70,8 +72,7 @@ nav a {
 
 .search-icon {
 	width: 50px;
-	/* aspect-ratio: square; */
-	color: white;
+	color: whitesmoke;
 	margin-left: 10px;
 }
 .search {
@@ -83,7 +84,6 @@ nav a {
 
 	flex-grow: 1;
 	max-width: 70%;
-	/* margin: 0 auto 0 auto; */
 }
 
 .search-form {
@@ -110,14 +110,97 @@ nav a {
 .search-links {
 	margin-left: 10px;
 	white-space: nowrap;
-}
-
-.search-links ul {
 	display: flex;
-	justify-content: space-around;
+	justify-content: start;
+	align-items: center;
+}
+.search-div {
+	display: flex;
+	width: 100px;
+	height: 50px;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
-.search-links li {
-	list-style: none;
-	margin: 0 5px;
+.search-links a {
+	text-decoration: none;
+	color: black;
+}
+.main h1 {
+	font-size: 80px;
+	font-weight: 600;
+	margin-top: 200px;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	text-align: center;
+	line-height: 24px;
+	background-color: rgba(232, 217, 217, 0.3);
+	margin-top: 200px;
+}
+.main-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.main-links a {
+	margin-left: 50px;
+	margin-right: 50px;
+	text-decoration: none;
+}
+.plans {
+	display: flex;
+	height: 50px;
+	width: 150;
+	background-color: #fb3b49;
+	box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+.plans a {
+	color: whitesmoke;
+}
+.join {
+	display: flex;
+	height: 50px;
+	width: 150;
+	color: black;
+	background-color: darkgray;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+.join a {
+	color: black;
+}
+.second {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-self: center;
+}
+.triangle {
+	width: 400px;
+	height: 400px;
+}
+.last-logo {
+	width: 100px;
+	height: 100px;
+}
+.last {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.last-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }

@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>NPM Clone</title>
 </head>
 
 <body>
     <header>
-        <div class="head-top">
-            <div id="blackheart">
-                <img class="blackHeart" src="./images/black-heart.png" alt="black heart" />
+        <div class="head">
+            <div class="head1" id="blackheart">
+                <img class="blackheart" src="./images/black-heart.png" alt="black heart" />
                 <span> Nifty Penguin Magic </span>
             </div>
             <nav>
@@ -25,17 +26,22 @@
                 </ul>
             </nav>
         </div>
-        <div class="head-bottom">
-            <img src="./images/npm-logo.png" alt="npm-logo">
-            <div class="search">
-                <form action="/search" method="GET">
-                    <img src="./images/magnifying-glass.png" alt="npm-logo">
-                    <input placeholder="Search Packages" value="search-query">
-                    <button type="submit">Search</button>
-                </form>
+
+        <div class="subhead">
+            <img class="npm-logo" src="./images/npm-logo.png" alt="npm-logo">
+            <form class="search-form" action="/search" method="GET">
+                <div class="search">
+                    <img class="search-icon" src="./images/magnifying-glass.png" alt="npm-logo">
+                    <input class="search-input" placeholder="Search Packages" value="Search Packages">
+                    <button class="search-btn" type="submit">Search</button>
+                </div>
+            </form>
+            <div class="search-links">
+                <ul>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Log In</a></li>
+                </ul>
             </div>
-            <a href="#">Join</a>
-            <a href="#">Log In</a>
         </div>
     </header>
     <section class="main">
